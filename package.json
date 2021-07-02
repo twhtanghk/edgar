@@ -1,0 +1,26 @@
+{
+  "name": "edgar",
+  "version": "0.0.1",
+  "description": "edgar filing",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "mocha test/*.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twhtanghk/edgar.git"
+  },
+  "author": "Tommy Tang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twhtanghk/edgar/issues"
+  },
+  "homepage": "https://github.com/twhtanghk/edgar#readme",
+  "devDependencies": {
+    "mocha": "^9.0.1"
+  },
+  "dependencies": {
+    "coffeescript": "^2.5.1",
+    "sec-api": "^3.0.1"
+  }
+}
